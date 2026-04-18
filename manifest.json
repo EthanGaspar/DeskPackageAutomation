@@ -3,6 +3,7 @@
     "name": "Package Field Automator",
     "version": "1.0",
     "description": "Automated field inputs based on user info to improve efficiency and reduce errors.",
+    "permissions": ["storage"],
     "icons": {
         "128": "icons/icon128.png",
         "48": "icons/icon48.png",
