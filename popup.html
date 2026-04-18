@@ -36,7 +36,55 @@
 			</button>
 			<div class="panel">
 				<h1 class="title">Settings</h1>
-				<p>Settings page stub.</p>
+
+				<div class="field">
+					<label for="parcel-type">Parcel Type</label>
+					<select id="parcel-type">
+						<option value="">-- Select --</option>
+						<option>Bin/Large Envelope</option>
+						<option>Flowers</option>
+						<option>Food/Perishable</option>
+						<option>Large/Floor</option>
+						<option>Small</option>
+						<option>Medium</option>
+					</select>
+				</div>
+
+				<div class="field">
+					<label for="shipping-type">Shipping Type</label>
+					<select id="shipping-type">
+						<option value="">-- Select --</option>
+						<option>Amazon</option>
+						<option>Delivery</option>
+						<option>DHL</option>
+						<option>Drop Off</option>
+						<option>FedEx</option>
+						<option>Freight</option>
+						<option>OnTrac</option>
+						<option>Other</option>
+						<option>Uni Uni</option>
+						<option>UPS</option>
+						<option>USPS</option>
+					</select>
+				</div>
+
+				<div class="field">
+					<label for="front-desk-location">Front Desk Location</label>
+					<select id="front-desk-location">
+						<option value="">-- Select --</option>
+						<option>Bellermaine Front Desk</option>
+						<option>Campion Front Desk</option>
+						<option>Xavier Front Desk</option>
+						<option>Douglas Front Desk</option>
+						<option>Chardin Front Desk</option>
+						<option>Murphy Front Desk</option>
+					</select>
+				</div>
+
+				<div class="field">
+					<label for="staff-receiving">Staff Receiving Package</label>
+					<input type="text" id="staff-receiving" maxlength="30" placeholder="Name (max 30 chars)">
+				</div>
 			</div>
 		</div>
 
