@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Package Field Automator</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" href="styles/popup.css">
+	</head>
+	<body>
+		<div id="main-view" class="view">
+			<button id="settings-btn" class="icon-btn settings-btn" aria-label="Settings" title="Settings">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="25" height="25" fill="currentColor">
+					<path d="M19.14,12.94a7.49,7.49,0,0,0,0-1.88l2.03-1.58a.5.5,0,0,0,.12-.64l-1.92-3.32a.5.5,0,0,0-.61-.22l-2.39.96a7.03,7.03,0,0,0-1.63-.95l-.36-2.54A.5.5,0,0,0,13.88,2h-3.84a.5.5,0,0,0-.5.42l-.36,2.54a7.03,7.03,0,0,0-1.63.95l-2.39-.96a.5.5,0,0,0-.61.22L2.63,8.49a.5.5,0,0,0,.12.64l2.03,1.58a7.49,7.49,0,0,0,0,1.88L2.75,14.17a.5.5,0,0,0-.12.64l1.92,3.32a.5.5,0,0,0,.61.22l2.39-.96a7.03,7.03,0,0,0,1.63.95l.36,2.54a.5.5,0,0,0,.5.42h3.84a.5.5,0,0,0,.5-.42l.36-2.54a7.03,7.03,0,0,0,1.63-.95l2.39.96a.5.5,0,0,0,.61-.22l1.92-3.32a.5.5,0,0,0-.12-.64ZM12,15.5A3.5,3.5,0,1,1,15.5,12,3.5,3.5,0,0,1,12,15.5Z"/>
+				</svg>
+			</button>
+			<img src="icons/icon48.png" alt="Package Field Automator Logo" class="logo">
+
+			<div class="panel">
+				<h1 class="title">Package Field Automator</h1>
+                <span class="toggle">
+                    <span>Enable:</span>
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                        <span class="switch-label"></span>
+                    </label>
+                </span>
+			</div>
+		</div>
+
+		<div id="settings-view" class="view hidden">
+			<button id="back-btn" class="icon-btn back-btn" aria-label="Back" title="Back">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+					<path d="M15.41,16.59L10.83,12l4.58-4.59L14,6l-6,6,6,6Z"/>
+				</svg>
+			</button>
+			<div class="panel">
+				<h1 class="title">Settings</h1>
+				<p>Settings page stub.</p>
+			</div>
+		</div>
+
+		<script src="popup.js"></script>
+	</body>
+</html>
