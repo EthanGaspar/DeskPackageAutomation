@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Package Field Automator",
+    "version": "1.0",
+    "description": "Automated field inputs based on user info to improve efficiency and reduce errors.",
+    "icons": {
+        "128": "icons/icon128.png",
+        "48": "icons/icon48.png",
+        "16": "icons/icon16.png"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "128": "icons/icon128.png",
+            "48": "icons/icon48.png",
+            "16": "icons/icon16.png"
+        }
+    }
+}
