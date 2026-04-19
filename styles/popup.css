@@ -35,7 +35,23 @@ body {
 }
 
 .back-btn {
-  left: 8px;
+  position: static;
+  padding: 4px 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f8f8f8;
+}
+
+.settings-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 1rem;
+}
+
+.settings-header .title {
+  margin: 0;
 }
 
 .toggle {
